@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8da1984590.js" crossorigin="anonymous"></script>
+    <title>PCRenz</title>
+</head>
+<body>
+    <div id="header">
+    <!--navbar-->
+    <nav class="teal accent-4">
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="img/logo.png" style="width: 210px; height: 60px;"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a> <i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a> <i class="fa-solid fa-user"></i></a></li>
+    </ul>
+    </div>
+    </nav>
+    </div>
+    <br>
+    <!--tabs-->
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs" style="background-color: transparent;">
+                <li class="tab col s2">
+                    <a href="#cpu" class="teal-text tab-link">CPU</a></li>
+                <li class="tab col s2">
+                    <a href="#mobo" class="teal-text tab-link">Motherboard</a></li>
+                <li class="tab col s2">
+                    <a href="#gpu" class="teal-text tab-link">GPU</a></li>
+                <li class="tab col s2">
+                    <a href="#case" class="teal-text tab-link">Cases & Fans</a></li>
+                <li class="tab col s2">
+                    <a href="#psu" class="teal-text tab-link">Power Supply</a></li>
+                <li class="tab col s2">
+                    <a href="#storage" class="teal-text tab-link">SSD/HDD</a></li>
+            </ul>
+        </div>
+    </div>
+    
+        <div id="cpu" class="col s12">
+            <div class="row">
+                <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                    <img src="img/cpu1.jpg">
+                    </div>
+                    <div class="card-content">
+                    <p class="teal-text text-darken-4 center">Intel Core i5-12600KF - Core i5 12th Gen Alder Lake 10-Core (6P+4E) 3.7 GHz LGA 1700 125W Desktop Processor - BX8071512600KF</p>
+                    </div>
+                    <div class="card-action">
+                    <a class="teal-text strong center">P12,479.38</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                        <img src="img/cpu2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="teal-text text-darken-4 center">Intel Core i7-12700K - Core i7 12th Gen Alder Lake 12-Core (8P+4E) 3.6 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX8071512700K</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="teal-text strong center">P16,452.29</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                    <img src="img/cpu3.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="teal-text text-darken-4 center">Intel Core i9-12900K - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 3.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX8071512900K</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="teal-text strong center">P32,333.84</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobo" class="col s12"></div>
+        <div id="gpu" class="col s12"></div>
+        <div id="case" class="col s12"></div>
+        <div id="psu" class="col s12"></div>
+        <div id="storage" class="col s12"></div>
+    </div>
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+
+    <script>
+            $(document).ready(function(){
+        $('.tabs').tabs();
+        });
+    </script>
+</body>
+</html>
